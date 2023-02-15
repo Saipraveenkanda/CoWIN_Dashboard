@@ -1,7 +1,7 @@
 import {BarChart, Bar, XAxis, YAxis, Legend} from 'recharts'
 
 import './index.css'
-
+// Do not use responsive container as per description to both pie chart and bar chart in this case, provide width and height in pie/bar charts itself
 const VaccinationCoverage = props => {
   const {vaccinationCoverage} = props
   const DataFormatter = number => {
